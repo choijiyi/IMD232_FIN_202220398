@@ -78,10 +78,10 @@ function draw() {
     smooth();
     beginShape();
     vertex((width / 5) * 0, endY);
-   bezierVertex(cx1, waveY[y1], cx2, waveY[y2], (width / 5) * 5, endY);
-   vertex((width / 5) * 5, height); 
-   vertex((width / 5) * 0, height); 
-   endShape(CLOSE);
+    bezierVertex(cx1, waveY[y1], cx2, waveY[y2], (width / 5) * 5, endY);
+    vertex((width / 5) * 5, height); 
+    vertex((width / 5) * 0, height); 
+    endShape(CLOSE);
   }
   
   Wave(1);
