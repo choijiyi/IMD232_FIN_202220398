@@ -1,3 +1,6 @@
+//https://www.youtube.com/watch?v=LLfhY4eVwDY의 웨이브를 p5.js로 수정
+
+
 let circles = [];
 
 // let canvaswidth = 300;
@@ -70,8 +73,8 @@ function draw() {
  } 
 
  function Wave(index) {
-   cx1 = ((width / 5) * 3) / 2; 
-   cx2 = ((width / 5) * 5) / 2;
+   bx1 = ((width / 5) * 3) / 2; 
+   bx2 = ((width / 5) * 5) / 2;
    y1 = 4 * (index-1);
    y2 = 2 + 4 * (index-1);
    fill(this.r, this.g, this.b, this.a);
@@ -90,5 +93,3 @@ function draw() {
 
  waveY = [];
 }
-
-//https://www.youtube.com/watch?v=LLfhY4eVwDY의 웨이브를 p5.js로 수정
