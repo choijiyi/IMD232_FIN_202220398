@@ -90,3 +90,5 @@ function draw() {
 
  waveY = [];
 }
+
+//https://www.youtube.com/watch?v=LLfhY4eVwDY의 웨이브를 p5.js로 수정
